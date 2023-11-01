@@ -55,9 +55,11 @@ body{
     margin-top: 50px;
     cursor: pointer;
     background-color: white;
+    border: none;
 }
 .button1:hover{
     background-color:hsl(31, 77%, 52%); ;
+    border: 1px solid gray;
 }
 
 .button2{
@@ -68,9 +70,11 @@ body{
     width: 120px;
     margin-top: 50px;
     cursor: pointer;
+    border:none ;
 }
 .button2:hover{
     background-color: hsl(184, 100%, 22%);
+    border: 1px solid gray;
 }
 
 .button3{
@@ -81,9 +85,12 @@ body{
     width: 120px;
     margin-top: 50px;
     cursor: pointer;
+    border: none;
+
 }
 .button3:hover{
     background-color:hsl(179, 100%, 13%) ;
+    border: 1px solid gray;
 }
 /* div{
     display: flex;
