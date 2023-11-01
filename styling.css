@@ -17,25 +17,25 @@ body{
 
 }
 
-  .first{
-    background-color: hsl(31, 77%, 52%);
-    width: 200px;
-    height: 350px;
-    padding-left: 20px;
-    padding-top: 20px;
-    color: white;
-   border-radius: 10px 0 0 10px;
-    
-  }
-  .second{
+.first{
+  background-color: hsl(31, 77%, 52%);
+  width: 200px;
+  height: 350px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+  border-radius: 10px 0 0 10px;
+  
+}
+.second{
     background-color: hsl(184, 100%, 22%);
     width: 200px;
     height: 350px;
     padding-left: 20px;
     padding-top: 20px;
     color: white;
-  }
-  .third{
+}
+.third{
     background-color: hsl(179, 100%, 13%);
     width: 200px;
     height: 350px;
@@ -43,10 +43,10 @@ body{
     padding-top: 20px;
     color: white;
     border-radius: 0 10px 10px 0;
-  }
+}
 
 
-  .button1{
+.button1{
     padding: 12px;
     border-radius: 10px;
     color: black;
@@ -55,12 +55,12 @@ body{
     margin-top: 50px;
     cursor: pointer;
     background-color: white;
-  }
-  .button1:hover{
+}
+.button1:hover{
     background-color:hsl(31, 77%, 52%); ;
-  }
+}
 
-  .button2{
+.button2{
     padding: 12px;
     border-radius: 10px;
     color: black;
@@ -68,12 +68,12 @@ body{
     width: 120px;
     margin-top: 50px;
     cursor: pointer;
-  }
-  .button2:hover{
+}
+.button2:hover{
     background-color: hsl(184, 100%, 22%);
-  }
+}
 
-  .button3{
+.button3{
     padding: 12px;
     border-radius: 10px;
     color: black;
@@ -81,10 +81,10 @@ body{
     width: 120px;
     margin-top: 50px;
     cursor: pointer;
-  }
-  .button3:hover{
+}
+.button3:hover{
     background-color:hsl(179, 100%, 13%) ;
-  }
+}
 /* div{
     display: flex;
     justify-content: center;
@@ -102,5 +102,11 @@ body{
 @media screen and (max-width: 600px) {
    .section{
     grid-template-columns: repeat(1, 1fr);
+   }
+   .first{
+    border-radius: 10px 10px 0 0;
+   }
+   .third{
+    border-radius: 0 0 10px;
    }
 }
